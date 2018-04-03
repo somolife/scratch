@@ -1,3 +1,5 @@
+console.log([...Array(12).keys()].map(i => i + 1));
+
 const a1 = [1, 2, 3];
 console.log(a1.unshift(4));
 console.log(a1);
